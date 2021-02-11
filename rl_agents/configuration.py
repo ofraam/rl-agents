@@ -8,6 +8,7 @@ class Configurable(object):
         It allows to provide a default_config function with pre-filled configuration.
         When provided with an input configuration, the default one will recursively be updated,
         and the input configuration will also be updated with the resulting configuration.
+		test
     """
     def __init__(self, config=None):
         self.config = self.default_config()
